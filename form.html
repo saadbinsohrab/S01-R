@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        legend {
+            text-align: center;
+            color:blue;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<header>
+    <div class="don">
+        <nav class="snav">
+            <h1 class="sn-title">Md.S<span class="aad">aad</span></h1>
+            <ul>
+                <li><a class="sn-a" href="index.html">Home</a></li>
+                <li><a class="sn-a" href="media.html">Media</a></li>
+                <li><a class="sn-a" href="table.html">Table</a></li>
+                <li><a class="sn-a" href="practice.html">Practice</a></li>
+                <li><a class="sn-a" href="developer-portfolio.html">portfolio</a></li>
+                <li><a class="sn-a" href="donate-today.html">Donate</a></li>
+                <li><a class="sn-a" href="digital-agency.html">Agency</a></li>
+                <li><a class="sn-a" href="assignment.html">assignment</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <h2 style="text-align: center; font-size: 30px;"
+    title="if yor join this club then fill in the form" >Welcome to Our club</h2>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="email">Your Email
+            <input id="email" type="email" placeholder="Your Email">
+        </label>
+        <label for="password">Your Password
+            <input id="password" type="password" placeholder="Your Password">
+        </label>
+        <label for="phone">Your Number
+            <input id="phone" type="text" maxlength="11" placeholder="Your Number">
+        </label>
+        <label for="age">Your Age
+            <input id="age" type="number" max="35" placeholder="Your Age">
+        </label>
+
+        <fieldset>
+            <legend>Choose Your Membership Category </legend>
+            <label for="long">
+                <input type="radio" name="term" id="long">
+                Long Term
+            </label>
+            <label for="mid">
+                <input type="radio" name="term" id="mid">
+                Mid Term
+            </label>
+            <label for="short">
+                <input type="radio" name="term" id="short">
+                Short Term
+            </label>
+            <!-- -------------- NAME SAME THAKTE HOBE ------------------------- -->
+        </fieldset>
+        <FIeldset>
+            <Legend>Your favorite games?</Legend>
+            <label for="cricket">
+                <input type="checkbox" name="game" id="cricket">
+                Cricket
+            </label>
+            <label for="football">
+                <input type="checkbox" name="game" id="football">
+                Football
+            </label>
+            <label for="badminton">
+                <input type="checkbox" name="game" id="badminton">
+                Badminton
+            </label>
+            <label for="vollyball">
+                <input type="checkbox" name="game" id="vollyball">
+                Vollyball
+            </label>
+        </FIeldset>
+        <br>
+        <select>
+            <option value="open">open</option>
+            <option value="closed">Closed</option>
+            <option value="sweeping">Sweeping</option>
+            <option value="serving">Serving</option>
+        </select>
+        <fieldset>
+            <legend>Special InstrUction</legend>
+            <textarea maxlength="5" name="" id="" cols="50" rows="3"></textarea>
+        </fieldset>
+        <br>
+        <input type="reset" value="cancel">
+        <input type="submit" value="sabmit">
+    </form>
+</body>
+</html>

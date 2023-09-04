@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+.don {
+    height: 50px;
+}
+
+.snav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(6, 213, 213, 0.592);
+    padding: 0 20px;
+    
+    width: 90%;
+    position: fixed;
+}
+
+.sn-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.aad {
+    color: orangered;
+}
+
+.snav > ul {
+    text-align: center;
+    display: flex;
+
+}
+
+.snav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.snav li:hover {
+    background-color: rgb(86, 132, 134);
+}
+
+.sn-a {
+    text-decoration: none;
+    color: black;
+}
+
+.nested {
+    display: none;
+}
+
+.fh:hover > .nested{
+    /* ---------------------very important----------------------  */
+    display: block;
+    position: absolute;
+    background-color: antiquewhite;
+    padding-left: 0;
+}

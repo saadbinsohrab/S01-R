@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Crimson Text;
+}
+
+header {
+    background-image: url("../asset/image/banner/banner3.png");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.banner {
+    margin-right: 200px;
+    text-align: right;
+}
+
+.ban-title {
+    font-weight: bold;
+    color: white;
+    font-size: 85px;
+
+}
+
+.ban-description {
+    color: white;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.btn {
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 34px;
+    padding: 15px 0;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.failure {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.failure li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.mp {
+    text-align: center;
+}
+
+.my-plan {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.i-title {
+    font-size: 28px;
+}
+
+.i-description {
+    font-size: 20px;
+    color: #a7a6a6;
+}
+
+.possitive {
+    background-image: url("../asset/image/watch.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 70%; */
+    width: 1140px;
+    height: 301px;
+    border-radius: 5px;
+    /* background-color: black; */
+
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.possitive img {
+    width: 100%;    
+}
+
+.possitive h1 {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.possitive button {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.f-l, .f-r {
+    width: 35%;
+}
+
+footer input {
+    
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    padding-right: 150px;
+    margin: 20px 0;
+}

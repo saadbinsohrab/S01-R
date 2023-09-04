@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #FFF8F3;
+    padding: 0 100px;
+    background-image: url(../asset/image/header_bg.png), url(../asset/image/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {    
+    justify-content: space-between;
+    /* align-items: center; */
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+nav , ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+span {
+    color:#FD6E0A;
+}
+
+.btn {
+    font-weight: bold;
+    border: 0;
+    border-radius: 2px;
+    padding: 18px 35px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    margin: 10px;
+}
+
+.btn-secondary {
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+.btn-third {
+    text-align:;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    margin: 50px 100px;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+
+.about-description {
+    margin: 20px 0;
+    color: #757575;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+}
+
+.info-description {
+    font-weight: bold;
+}
+
+.what {
+    margin: 50px 100px;
+    padding: 50px 0;
+}
+
+.what-title {
+    text-align: center;
+}
+
+.what-description {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.what-card-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+
+}
+
+.card-info {
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: .2px .2px 50px #75757535 ;
+}
+
+.card-title {
+    padding: 30px 0;
+}
+
+
+
+.resume {
+    margin: 50px 100px;
+}
+
+.section-title{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.resume-title {
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item-sub-title {
+    margin: 5px 0;
+    color: #757575;
+    font-weight: bold;
+}
+
+.item-description {
+    color: #757575;
+    margin-top: 30px;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+.resume-btn {
+    text-align: center;
+}
+
+
+
+footer {
+    /* margin: 50px 100px; */
+    background-color: #FFF8F3;
+    padding: 50px 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.f-title, .f-description {
+    margin-bottom: 20px;
+}
+
+input[type="text"],[type="email"] , textarea {
+    display: block;
+    margin-bottom: 10px;
+    border: 0;
+    padding: 18px 30px;
+
+    width: 100%;
+}
+
+.fc {
+    max-width: 50%;
+}
+ 
+/* -------------------moja------------------------- */
+
+.moja {
+    cursor: progress;
+}
+
+.goja {
+    cursor: pointer;
+}
+
+.khoja {
+    cursor:not-allowed;
+} 
+
+.foja {
+    cursor: url("../asset/image/icons/twitter.png"), auto;
+}

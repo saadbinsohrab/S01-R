@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        label {
+            display: block;
+        }
+        legend {
+            text-align: right;
+            font-weight: bold;
+            font-size: 25px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<header>
+    <div class="don">
+        <nav class="snav">
+            <h1 class="sn-title">Md.S<span class="aad">aad</span></h1>
+            <ul>
+                <li><a class="sn-a" href="index.html">Home</a></li>
+                <li><a class="sn-a" href="media.html">Media</a></li>
+                <li class="fh">
+                    <a class="sn-a" href="form.html">Form</a>
+                    <ul class="nested">
+                        <li><a class="sn-a" href="index.html">Home</a></li>
+                    <li><a class="sn-a" href="media.html">Media</a></li>
+                    <li class="fh">
+                        <a class="sn-a" href="form.html">Form</a>
+                        <ul class="nested">
+                            <li><a class="sn-a" href="index.html">Home</a></li>
+                            <li><a class="sn-a" href="media.html">Media</a></li>
+                            <li><a class="sn-a" href="form.html">Form</a></li>
+                            <li><a class="sn-a" href="practice.html">Practice</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="sn-a" href="practice.html">Practice</a></li>
+                    </ul>
+                </li>
+                <li><a class="sn-a" href="table.html">Table</a></li>
+                <li><a class="sn-a" href="developer-portfolio.html">portfolio</a></li>
+                <li><a class="sn-a" href="donate-today.html">Donate</a></li>
+                <li><a class="sn-a" href="digital-agency.html">Agency</a></li>
+                <li><a class="sn-a" href="assignment.html">assignment</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <h2>welcome to my practice site </h2>
+    <form action=" ">
+        <fieldset>
+            <legend>fill in the form </legend>
+            <label for="name">your name
+                <input id="name" type="text" placeholder="your name">
+            </label>
+            <label for="email">your email
+                <input id="email" type="email" placeholder="your email">
+            </label>
+            <label for="password">yor password
+                <input id="password" type="text" placeholder="password">
+            </label>
+            <label for="phone">phone Number
+                <input id="phone" type="number" placeholder="your phone number">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose on thing</legend>
+            <label for="career">
+                <input id="career" type="radio" name="thing">
+                career</label>
+            <label for="girl">
+                <input id="girl" type="radio" name="thing">
+                girl</label>
+            <label for="freedom">
+                <input id="freedom" type="radio" name="thing">
+                freedom</label>
+            <label for="family">
+                <input id="family" type="radio" name="thing">
+                family</label>
+        </fieldset>
+        <fieldset>
+            <legend>select do you want</legend>
+            <label for="career">
+                <input id="career" type="checkbox" name="thing">
+                career</label>
+            <label for="girl">
+                <input id="girl" type="checkbox" name="thing">
+                girl</label>
+            <label for="freedom">
+                <input id="freedom" type="checkbox" name="thing">
+                freedom</label>
+            <label for="family">
+                <input id="family" type="checkbox" name="thing">
+                family</label>
+        </fieldset>
+        <fieldset>
+            <legend>what should you select</legend>
+            <select name="" id="">
+                <option value="career">career</option>
+                <option value="girl">girl</option>
+                <option value="freedom">freedom</option>
+                <option value="family">family</option>
+            </select>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input title="are you sure?" type="submit" value="submit">
+    </form>
+</body>
+</html>
